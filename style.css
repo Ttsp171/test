@@ -1,0 +1,56 @@
+.required {
+    color: red;
+}
+.dashboard-filter-wrap .compact-inputs,.dashboard-filter-wrap .left-button,.dashboard-filter-wrap .right-button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard-filter-wrap .compact-inputs input {
+    width: max-content;
+    /* Adjust width as needed */
+    margin-right: 5px;
+}
+
+/* Responsive classes */
+@media (max-width: 768px) {
+    .dashboard-filter-wrap .compact-inputs input {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .dashboard-filter-wrap .right-button {
+    margin-left: 0!important;
+    margin-top: 10px;
+    
+}
+}
+
+/* Position the bottom button */
+.dashboard-filter-wrap .right-button {
+    margin-left: auto;
+    
+}
+.dashboard-filter-wrap .left-button{
+    justify-content: flex-start;
+}
+.dashboard-filter-wrap{
+    margin-bottom: 20px;
+}
+table#myTable td,th {
+    font-size:10px
+
+}
+
+.dashboard table#myTable {
+    margin-top: 46px;
+}
+
+select.form-control.status-selector {
+    font-size:10px;
+    
+}
+.dashboard div#myTable_length,.dashboard div#myTable_filter {
+    margin-bottom:10px
+}
+
+
